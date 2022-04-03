@@ -4,11 +4,12 @@
   "description": "Test cloud functions 2gen",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "functions-framework --target=app [--signature-type=http]"
   },
   "author": "Nicolás Morales",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "escape-html": "^1.0.3",
     "express": "^4.17.3"
   },
