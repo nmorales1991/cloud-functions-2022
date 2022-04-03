@@ -1,10 +1,10 @@
 require('dotenv').config();
 const express = require('express')
-const { port } = require('./config');
+const { port, hola} = require('./config');
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send(`Hola Mundo port ${port}`)
+  res.send(`Hola Mundo ${ hola }`);
 })
 
 app.listen(port, () => {
