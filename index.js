@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   res.send(`Hola Mundo ${ port } ${ hola }`);
 })
 
-app.listen(port, () => {
+app.listen(puerto, () => {
   console.log(`Example app listening on port ${puerto}`)
 })
 
