@@ -3,5 +3,5 @@ steps:
     args: ['install']
     dir: '/'
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['beta', 'functions', 'deploy', 'app', '--gen2','--trigger-http', '--runtime', 'nodejs16', '--entry-point', 'app', '--region', 'us-central1']
+    args: ['beta', 'functions', 'deploy', 'app', '--gen2','--trigger-http', '--runtime', 'nodejs16', '--entry-point', 'app', '--region', 'us-central1', '--port', '3030']
     dir: '/'
