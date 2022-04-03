@@ -2,7 +2,7 @@
   "name": "cloud-functions-2022",
   "version": "1.0.0",
   "description": "Test cloud functions 2gen",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "functions-framework --target=app [--signature-type=http]"
   },

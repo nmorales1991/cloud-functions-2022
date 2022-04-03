@@ -1,6 +1,6 @@
 require('dotenv').config();
 const express = require('express')
-const { port, hola } = require('./config');
+const { port, hola } = require('../config');
 const app = express()
 
 app.get('/', (req, res) => {
